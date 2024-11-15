@@ -25,9 +25,7 @@ const greeting = {
   subTitle: emoji(
     "An enthusiastic Full Stack AI Developer 🚀 with a passion for creating innovative solutions."
   ),
-  aiExperience: emoji(
-    "⚡ Experienced in developing and deploying AI models"
-  ),
+  aiExperience: emoji("⚡ Experienced in developing and deploying AI models"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,8 +45,12 @@ const skillsSection = {
   title: "AI & Machine Learning Skills",
   subTitle: "SPECIALIZED IN AI DEVELOPMENT AND GENERATIVE AI TECHNOLOGIES",
   skills: [
-    emoji("⚡ Expertise in developing Large Language Models and Generative AI applications"),
-    emoji("⚡ Building AI agents and autonomous systems using CrewAI and LangChain"),
+    emoji(
+      "⚡ Expertise in developing Large Language Models and Generative AI applications"
+    ),
+    emoji(
+      "⚡ Building AI agents and autonomous systems using CrewAI and LangChain"
+    ),
     emoji("⚡ Advanced NLP solutions and conversational AI implementations"),
     emoji("⚡ Deep learning model development and MLOps practices"),
     emoji("⚡ Computer Vision and Image Processing applications"),
@@ -150,14 +152,13 @@ const educationInfo = {
       schoolName: "NIT Bhopal",
       logo: require("./assets/images/not_bhopal.png"),
       subHeader: "Master of Technology in Artificial Intelligence",
-      duration: "September 2021 - May 2023",
-  
+      duration: "September 2021 - May 2023"
     },
     {
       schoolName: "Tezpur University",
       logo: require("./assets/images/Tezpur_University_logo.png"),
       subHeader: "Bachelor of Technology in Mechanical Engineering",
-      duration: "July 2015 - August 2019",
+      duration: "July 2015 - August 2019"
     }
   ]
 };
@@ -208,8 +209,7 @@ const workExperiences = {
       company: "Sanmar Group",
       companylogo: require("./assets/images/Chemplast_Sanmar.jpg"),
       date: "July 2019 –  Feb 2021"
-    },
-    
+    }
   ]
 };
 
